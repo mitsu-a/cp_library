@@ -37,7 +37,7 @@ struct{
 
 /*---------debug---------*/
 #ifdef LOGX
-#include <template/debug.hpp>
+#include <Library_cp/debug.hpp>
 #else
 #define dbg(...) ;
 #define dbgnewl ;
